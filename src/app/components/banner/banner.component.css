@@ -1,0 +1,55 @@
+.banner {
+  width: 1024px;
+  background-image: url("../../../assets/banner@2x.png");
+  background-size: 1024px 600px;
+  background-repeat: no-repeat;
+  margin: 60px auto 0 auto;
+  padding: 105px 464px 114px 29px;
+}
+
+.title-wrap {
+  width: 530px;
+}
+
+.title {
+  margin-bottom: 27px;
+  padding: 0;
+}
+.title span {
+  font-size: 48px;
+}
+.title h1 {
+  /* Style for "main title" */
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 54px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  line-snap: none;
+}
+.title__text {
+  /* Style for "We kindly" */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 34px;
+  margin-left: 1px;
+  padding: 0;
+}
+.title__button {
+  /* Style for "Rectangle" */
+  width: 210px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #ef5b4c;
+  border: none;
+  /* Style for "Sing up no" */
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=banner.component.css.map */

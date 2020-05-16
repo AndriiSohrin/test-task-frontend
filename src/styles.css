@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("./font/OpenSans-Regular.eot");
+  src: url("./font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("./font/OpenSans-Regular.woff") format("woff"), url("./font/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans Regular", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
