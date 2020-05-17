@@ -21,7 +21,7 @@
 .title h1 {
   /* Style for "main title" */
   color: #ffffff;
-  font-size: 50px;
+  font-size: 49px;
   font-weight: 400;
   line-height: 54px;
   text-transform: uppercase;
@@ -31,12 +31,13 @@
 }
 .title__text {
   /* Style for "We kindly" */
+  width: 100%;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 34px;
-  margin-left: 1px;
+  margin-left: 3px;
   padding: 0;
 }
 .title__button {

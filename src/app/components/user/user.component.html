@@ -1,0 +1,30 @@
+<section class="user">
+  <div class="user_title">
+    <h2>Our cheerful users</h2>
+    <p>Attention! Sorting users by registration date</p>
+  </div>
+  <div class="user_list">
+
+      <div *ngFor="let user of userList" class="user_card">
+        <div class="user_card__img">
+          <img src="{{user.photo}}" alt="{{user.id}}">
+        </div>
+        <div class="user_card__name">
+          <p>{{user.name}}</p>
+        </div>
+        <div class="user_card__position">
+          <p>{{user.position}}</p>
+        </div>
+        <div class="user_card__email">
+          <p>{{user.email}}</p>
+        </div>
+        <div class="user_card__phone">
+          <p>{{user.phone}}</p>
+        </div>
+      </div>
+
+    <div>
+      <button class="user_list__button">Show more</button>
+    </div>
+  </div>
+</section>

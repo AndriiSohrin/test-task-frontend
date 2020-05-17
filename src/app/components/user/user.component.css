@@ -1,0 +1,74 @@
+.user {
+  width: 1024px;
+  background-color: #f9f9f3;
+  margin: 22px auto 0 auto;
+  text-align: center;
+  padding: 148px 81px 160px 78px;
+}
+
+.user_title {
+  /* Style for "Our cheerf" */
+}
+.user_title h2 {
+  color: #212529;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.user_title p {
+  /* Style for "Attention!" */
+  color: #4c4b4b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/*========================= user-card setting ==================================*/
+.user_list {
+  margin-top: 78px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.user_list__button {
+  margin-top: 32px;
+  width: 210px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #ef5b4c;
+  border: none;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 38%;
+  top: 81%;
+}
+
+.user_card {
+  width: 200px;
+  margin-right: 132px;
+  margin-bottom: 133px;
+  /* Style for "Contextual" */
+  color: #4c4b4b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.user_card img {
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+}
+.user_card:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.user_card__name {
+  margin: 11px 0 11px 0;
+  color: #212529;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=user.component.css.map */

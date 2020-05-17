@@ -8,8 +8,12 @@
   margin: 0;
 }
 
-body{
+body {
   @include main-font;
+
+  & button {
+    @include main-font;
+  }
 }
 
 
