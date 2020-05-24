@@ -1,0 +1,22 @@
+.about {
+  max-width: 1024px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    max-width: 768px;
+    padding: 153px 30px 103px 30px;
+  }
+  .about__title {
+    padding-left: 135px;
+  }
+  .about_wrap__img {
+    margin-right: 26px;
+
+    & img {
+      width: 247px;
+      height: 207px;
+      margin-left: 0;
+    }
+  }
+}

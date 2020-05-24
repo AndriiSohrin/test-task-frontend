@@ -1,5 +1,6 @@
 .banner {
-  width: 1024px;
+  //width: 1024px;
+  max-width: 1024px;//=============================
   background-image: url("../../../assets/banner@2x.png");
   //background-color: gray;
   background-size: 1024px 600px;
@@ -17,6 +18,7 @@
 .title {
   margin-bottom: 27px;
   padding: 0;
+
   & span{
     font-size: 48px;
   }

@@ -1,4 +1,14 @@
 /*==========================header setting====================================*/
+.header {
+  max-width: 1024px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    max-width: 768px;
+    display: none;
+  }
+}
 header {
   margin: auto;
   background-color: #ffffff;
@@ -12,7 +22,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
   height: 60px;
   margin: auto;
   padding: 0;

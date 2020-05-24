@@ -1,24 +1,21 @@
 
 /*==========================header setting====================================*/
-
+@import "grid";
 
 header{
   margin: auto;
-  //max-width: 2560px;
-  //width: 1170px;   //тимчасово даю сталу величину
   background-color: #ffffff;
   position: fixed;
   z-index: 99;
   width: 100%;
   top: 0;
-
-  //left: 12%;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
+
   height: 60px;
   margin: auto;
   padding: 0;
@@ -30,16 +27,14 @@ header{
 }
 
 .nav {
-  ul {
+
+  & ul {
     list-style: none;
     display: flex;
-    //:nth-child(n+3):nth-child(-n+4){
-    //  margin-right: 29px;
-    //}
   }
-  li {
+  & li {
       margin-right: 29px;
-      a {
+      & a {
         text-decoration: none;
         color: #212529;
         font-size: 14px;

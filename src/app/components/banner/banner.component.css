@@ -1,5 +1,5 @@
 .banner {
-  width: 1024px;
+  max-width: 1024px;
   background-image: url("../../../assets/banner@2x.png");
   background-size: 1024px 600px;
   background-repeat: no-repeat;

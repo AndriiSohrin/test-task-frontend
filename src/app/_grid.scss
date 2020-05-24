@@ -1,0 +1,10 @@
+.header {
+  max-width: 1024px;
+}
+
+@media (max-width: 768px){
+  .nav {
+    max-width: 768px;
+    display: none;
+  }
+}

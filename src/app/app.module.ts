@@ -7,13 +7,15 @@ import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
 import { UserComponent } from './components/user/user.component';
 import {HttpClientModule} from '@angular/common/http';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
     AboutComponent,
-    UserComponent
+    UserComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
